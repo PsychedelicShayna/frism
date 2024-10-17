@@ -1,0 +1,19 @@
+[package]
+name = "frism"
+version = "0.4.0"
+edition = "2021"
+
+description = "Frism (File Prism), splits a file into N byte chunks, and can later join them back together. Zero dependencies."
+repository = "https://github.com/PsychedelicShayna/frism"
+homepage = "https://github.com/PsychedelicShayna/frism"
+categories = ["command-line-utilities", "filesystem"]
+keywords = ["split", "file", "chunks", "parts", "divide" ]
+license-file = "LICENSE"
+readme = "README.md"
+
+exclude = [
+  ".github",
+  "target"
+]
+
+
